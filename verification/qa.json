@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "desktop": {
+    "width": 1440,
+    "scroll": 1425,
+    "paths": 47,
+    "links": [
+      "#main",
+      "#",
+      "resume_quant.pdf",
+      "#education",
+      "#experience",
+      "#projects",
+      "#awards",
+      "mailto:mathieu.roig@ensae.fr",
+      "#work",
+      "https://www.linkedin.com/in/mathieu-roig-424487253/",
+      "#work",
+      "presentation_en.html",
+      "https://www.ip-paris.fr/",
+      "https://www.ensae.fr/",
+      "https://www.mines-stetienne.fr/",
+      "https://www.risk.net/insight/operational-risk/7963260/industrialising-the-challenge-process-ai-in-operational-risk-scenario-analysis",
+      "mailto:mathieu.roig@ensae.fr",
+      "https://www.linkedin.com/in/mathieu-roig-424487253/",
+      "https://github.com/mathieuroig9",
+      "#"
+    ]
+  },
+  "mobile": {
+    "width": 390,
+    "scroll": 390
+  },
+  "details": true,
+  "schools": [
+    {
+      "name": "Institut Polytechnique de Paris",
+      "courses": [
+        "Stochastic Calculus",
+        "Dynamic Optimization",
+        "Risk Management"
+      ]
+    },
+    {
+      "name": "ENSAE Paris",
+      "courses": [
+        "Statistics",
+        "Machine Learning",
+        "Stochastic Processes",
+        "Time Series"
+      ]
+    },
+    {
+      "name": "Mines Saint-Étienne",
+      "courses": [
+        "Big Data",
+        "Deep Learning",
+        "Game Theory",
+        "Microeconomics & Macroeconomics"
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "role": "Quantitative Research Intern",
+      "dates": "May 2026 — Nov 2026"
+    },
+    {
+      "role": "AI Engineering Consultant",
+      "dates": "Feb 2026 — Aug 2026"
+    },
+    {
+      "role": "Research Assistant · NLP",
+      "dates": "Jun 2025 — Apr 2026"
+    },
+    {
+      "role": "Machine Learning Intern",
+      "dates": "Jun 2024 — Sep 2024"
+    }
+  ],
+  "reducedMotion": true,
+  "errors": []
+}
