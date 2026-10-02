@@ -66,3 +66,9 @@
 /* Remove the empty caption strip on smaller screens. */
 .hero-bottom{justify-content:flex-end}
 @media(max-width:1000px){.hero-bottom{display:none}}
+
+/* Academic research projects use the same expandable rows as Experience. */
+.research-project-list{border-bottom:1px solid var(--line)}
+.project-wordmark{font:700 26px var(--sans);letter-spacing:-1px;color:#202229}
+.job-details .project-source{display:inline-block;margin-top:17px;color:var(--accent);font-size:12px;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:650px){.project-wordmark{font-size:21px}.job-details .project-source{font-size:11px}}

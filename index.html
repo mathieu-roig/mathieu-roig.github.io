@@ -11,7 +11,7 @@
   <a class="skip" href="#main">Skip to content</a>
   <header class="nav wrap">
     <a class="monogram" href="#" aria-label="Mathieu Roig, home">MR<span>/</span></a>
-    <nav aria-label="Main navigation"><a href="#work"><small>01</small> My projects</a><a href="#education"><small>02</small> Education</a><a href="#experience"><small>03</small> Experience</a><a href="#awards"><small>04</small> Awards</a><a href="mailto:mathieu.roig@ensae.fr">Get in touch <span>↗</span></a></nav>
+    <nav aria-label="Main navigation"><a href="resume_quant.pdf" target="_blank" rel="noopener" aria-label="Open CV in a new tab">CV</a><a href="#education"><small>01</small> Education</a><a href="#experience"><small>02</small> Experience</a><a href="#projects"><small>03</small> Projects</a><a href="#awards"><small>04</small> Awards</a><a href="mailto:mathieu.roig@ensae.fr">Get in touch <span>↗</span></a></nav>
   </header>
   <main id="main">
     <section class="hero wrap" aria-labelledby="hero-title">
@@ -22,7 +22,7 @@
       <div class="hero-bottom"><a href="#work" aria-label="Scroll to my projects">SCROLL TO EXPLORE <span>↘</span></a></div>
     </section>
     <section class="work-section" id="work" aria-labelledby="work-title"><div class="wrap">
-      <div class="section-heading"><h2 id="work-title">What I’ve been working on.</h2><span class="section-note">From the question to the results</span></div>
+      <div class="section-heading"><h2 id="work-title">What I’ve been working on.</h2></div>
       <article class="project">
         <div class="project-art" aria-hidden="true"><div class="art-top"><span>CANDRIAM</span><span>RESEARCH / 2026</span></div><svg viewBox="0 0 600 380" class="pair-art"><defs><linearGradient id="fade" x1="0" x2="1"><stop stop-color="#b2a4ff"/><stop offset="1" stop-color="#7061e8"/></linearGradient></defs><g class="art-grid"><path d="M0 90H600M0 190H600M0 290H600M100 0V380M200 0V380M300 0V380M400 0V380M500 0V380"/></g><path class="pair-line one" d="M-10 205C30 205 36 161 74 171S111 218 146 179S190 120 225 136S266 209 310 155S367 52 410 89S470 170 514 175S565 153 615 164"/><path class="pair-line two" d="M-10 219C34 219 40 181 77 192S120 172 151 197S190 263 226 246S272 184 311 224S371 312 413 271S471 187 514 187S565 171 615 182"/><circle cx="514" cy="181" r="32" class="focus-ring"/><path d="M514 218V280H553" class="art-pointer"/></svg><div class="art-bottom"><span>PAIR SELECTION<br><b>× MACHINE LEARNING</b></span><span class="art-number">01</span></div></div>
         <div class="project-copy"><div class="project-meta"><span>SYSTEMATIC EQUITIES</span><span>MY INTERNSHIP AT CANDRIAM</span></div><h3>Learning which<br>pairs to trade.</h3><p>During my final-year internship, I research pair selection through machine learning and how to combine it with complementary strategies.</p><div class="tags"><span>Machine learning</span><span>Pairs trading</span><span>Portfolio construction</span></div><a class="project-link" href="presentation_en.html" target="_blank" rel="noopener"><span>Explore the presentation</span><span class="arrow-box" aria-hidden="true">↗</span></a></div>
@@ -55,7 +55,7 @@
           </details>
           <details class="job" id="experience-elseware">
             <summary><span class="school-logo job-logo"><img class="elseware-logo" src="assets/experience/elseware.webp" alt="Elseware" width="1184" height="1184"></span><span class="job-info"><strong>AI Engineering Consultant</strong><span>Elseware · via ENSAE Junior Études</span></span><span class="job-date">Feb 2026 — Aug 2026</span><span class="plus" aria-hidden="true">+</span></summary>
-            <div class="job-details"><ul><li>Developed TrustAgent, a multi-agent LLM system for operational-risk scenario analysis.</li><li>Tested expert-judgement assumptions against retrieved public evidence and returned auditable verdicts.</li></ul></div>
+            <div class="job-details"><ul><li>Developed TrustAgent, a multi-agent LLM system for operational-risk scenario analysis.</li><li>Tested expert-judgement assumptions against retrieved public evidence and returned auditable verdicts.</li><li>TrustAgent featured in a <a href="https://www.risk.net/insight/operational-risk/7963260/industrialising-the-challenge-process-ai-in-operational-risk-scenario-analysis" target="_blank" rel="noopener" style="color:var(--accent);text-decoration:underline;text-underline-offset:3px">Risk.net interview</a> with Patrick Naim (Elseware CEO) and Nedim Baruh (MD, JPMorganChase).</li></ul></div>
           </details>
           <details class="job" id="experience-polytechnique">
             <summary><span class="school-logo job-logo"><span class="logo-crop x-crop"><img src="assets/schools/polytechnique-ip-paris.png" alt="École polytechnique" width="2242" height="779"></span></span><span class="job-info"><strong>Research Assistant · NLP</strong><span>École polytechnique</span></span><span class="job-date">Jun 2025 — Apr 2026</span><span class="plus" aria-hidden="true">+</span></summary>
@@ -67,12 +67,25 @@
           </details>
         </div>
       </section>
+      <section class="research-projects" id="projects" aria-labelledby="projects-title">
+        <div class="background-heading"><h3 id="projects-title">Projects</h3><span>Explore my research <span aria-hidden="true">↘</span></span></div>
+        <div class="research-project-list">
+          <details class="job" id="project-candriam">
+            <summary><span class="school-logo job-logo"><img src="assets/experience/candriam.svg" alt="Candriam" width="2721" height="543"></span><span class="job-info"><strong>Quantitative Research Project</strong><span>Candriam · Financial NLP</span></span><span class="job-date">2025 — 2026</span><span class="plus" aria-hidden="true">+</span></summary>
+            <div class="job-details"><p class="job-context">12-month research project with ENSAE Paris</p><ul><li>Benchmarked Loughran–McDonald and FinBERT sentiment scores on the MD&amp;A sections of 67,000+ SEC filings using panel regressions and long-short portfolios.</li><li>Built an extraction and parsing pipeline for 10-K/10-Q filings, with point-in-time alignment to returns and control factors.</li><li>Found no robust predictive signal for abnormal returns over horizons of 1–21 days.</li></ul></div>
+          </details>
+          <details class="job" id="project-wtw">
+            <summary><span class="school-logo job-logo"><span class="project-wordmark">WTW</span></span><span class="job-info"><strong>Quantitative Research Project</strong><span>WTW · Economic Scenario Generation</span></span><span class="job-date">2024 — 2025</span><span class="plus" aria-hidden="true">+</span></summary>
+            <div class="job-details"><p class="job-context">12-month research project with ENSAE Paris</p><ul><li>Explored generative AI for forward interest-rate scenarios, using the Libor Market Model as a benchmark.</li><li>Compared GAN and physics-informed GAN approaches, assessing their ability to reproduce financial dynamics and constraints.</li><li>Used physics-informed neural networks to estimate LMM volatility and correlation parameters from simulated scenarios.</li></ul></div>
+          </details>
+        </div>
+      </section>
       <section class="awards" id="awards" aria-labelledby="awards-title">
         <div class="background-heading"><h3 id="awards-title">Awards</h3></div>
         <ul class="award-list">
           <li class="award-row"><span class="award-mark" aria-hidden="true">✦</span><div class="award-info"><strong>QRT Data Challenge</strong><span>3rd place · 150+ participants</span><span>Open exclusively to students from ENSAE, Télécom, Centrale and École polytechnique.</span></div><span class="award-date">2025</span></li>
-          <li class="award-row"><span class="award-mark" aria-hidden="true">✦</span><div class="award-info"><strong>EDF – Institut de France Scholarship</strong></div><span class="award-date">2023</span></li>
-          <li class="award-row"><span class="award-mark" aria-hidden="true">✦</span><div class="award-info"><strong>Louis Neltner Excellence Scholarship</strong></div><span class="award-date">2022</span></li>
+          <li class="award-row"><span class="award-mark" aria-hidden="true">✦</span><div class="award-info"><strong>EDF – Institut de France Scholarship</strong><span>Awarded for academic excellence.</span></div><span class="award-date">2023</span></li>
+          <li class="award-row"><span class="award-mark" aria-hidden="true">✦</span><div class="award-info"><strong>Louis Neltner Excellence Scholarship</strong><span>Awarded for academic excellence.</span></div><span class="award-date">2022</span></li>
         </ul>
       </section>
     </section>
